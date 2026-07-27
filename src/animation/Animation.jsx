@@ -74,7 +74,6 @@ transition={{
     repeat:Infinity,
     duration:3
 }}
-transition={{ duration: 0.8 }}
 viewport={{
         once:false,
         amount: 0.2,
