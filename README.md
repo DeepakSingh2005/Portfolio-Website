@@ -4,13 +4,15 @@ A modern, responsive, and interactive developer portfolio built with **React**, 
 
 ## 🌐 Live Demo
 
-> https://your-portfolio-url.vercel.app
+> https://portfolio-website-puce-five-38.vercel.app/
 
 ## 📸 Preview
 
 > Add a screenshot of your homepage here.
 
-![Portfolio Preview](./public/preview.png)
+<img width="1512" height="692" alt="Screenshot 2026-07-27 203007" src="https://github.com/user-attachments/assets/25e86526-01f9-4555-a633-40dbbbd65c8a" />
+<img width="1487" height="662" alt="Screenshot 2026-07-27 203044" src="https://github.com/user-attachments/assets/a08608fc-7d87-424e-98d4-0e29a1888d12" />
+<img width="1513" height="693" alt="Screenshot 2026-07-27 203106" src="https://github.com/user-attachments/assets/ba91b28f-dd71-434d-89f6-468945018655" />
 
 ---
 
