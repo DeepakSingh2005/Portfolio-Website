@@ -1,16 +1,149 @@
-# React + Vite
+# 🚀 Deepak Singh | Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive developer portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases my projects, technical skills, and provides an easy way for recruiters and clients to connect with me.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> https://your-portfolio-url.vercel.app
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Add a screenshot of your homepage here.
 
-## Expanding the ESLint configuration
+![Portfolio Preview](./public/preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎨 Modern and clean UI
+- 📱 Fully responsive design
+- ⚡ Smooth animations with Framer Motion
+- 🌙 Dark theme
+- 💼 Project showcase
+- 👨‍💻 About Me section
+- 🛠 Skills section
+- 📄 Resume download
+- 📬 Contact form integration
+- 🔗 Social media links
+- 🚀 Fast loading with Vite
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Folder Structure
+
+```
+Portfolio-Website/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/DeepakSingh2005/Portfolio-Website.git
+```
+
+Navigate to the project
+
+```bash
+cd Portfolio-Website
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📌 Portfolio Sections
+
+- Home
+- About
+- Skills
+- Projects
+- Resume
+- Contact
+
+---
+
+## 📫 Contact
+
+**Deepak Singh**
+
+- GitHub: https://github.com/DeepakSingh2005
+- LinkedIn: *(Add your LinkedIn URL)*
+- Email: *(Add your email address)*
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by **Deepak Singh**
