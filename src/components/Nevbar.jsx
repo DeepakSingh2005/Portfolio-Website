@@ -15,7 +15,7 @@ export default function Navbar({scroll,scrollto,scrolltoskills}) {
         <ul className="hidden md:flex  gap-12 text-lg">
 
          <div className="flex font-medium text-zinc-600 cursor-pointer gap-10 justify-center">
-          <motion.li whileHover={{ scale: 1.2 ,x:10 ,transition: { duration: 0.1 } }}  className=' transition' onClick={scroll}>Home</motion.li>
+          <motion.li whileHover={{ scale: 1.2 ,x:10 ,transition: { duration: 0.1 } }}  className=' transition' >Home</motion.li>
           
           <motion.li whileHover={{ scale: 1.2 ,x:10 ,transition: { duration: 0.1 } }}  className=' transition' onClick={scrolltoskills}>Skills</motion.li>
           <motion.li whileHover={{ scale: 1.2 ,x:10 ,transition: { duration: 0.1 } }}  className=' transition' onClick={scroll}>Projects</motion.li>
