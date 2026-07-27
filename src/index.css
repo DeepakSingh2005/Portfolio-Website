@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "BebasNeue-Regular";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf");
+
+}
+@import "tailwindcss";
+
+@theme {
+  --font-bebas-neue:"BebasNeue-Regular",BebasNeue-Regular;
+}
