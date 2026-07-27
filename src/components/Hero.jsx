@@ -1,4 +1,4 @@
-import profile from "../assets/profile2.png";
+import profile from "../assets/Profile2.png";
 import arrow from "../assets/arrow.svg"
 import { motion } from "framer-motion";
 import {Fadein} from "../animation/Animation.jsx"

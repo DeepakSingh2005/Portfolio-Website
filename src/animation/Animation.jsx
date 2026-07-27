@@ -72,9 +72,9 @@ className='',
 }}
 transition={{
     repeat:Infinity,
-    duration:3
+    duration:0.8
 }}
-transition={{ duration: 0.8 }}
+
 viewport={{
         once:false,
         amount: 0.2,
