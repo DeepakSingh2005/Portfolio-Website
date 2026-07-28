@@ -4,7 +4,7 @@ import {Glowfade} from "../animation/Animation.jsx"
 
 export default function Navbar({scroll,scrollto,scrolltoskills}) {
   return (
-    <header className="max-w-7xl mx-auto px-8 py-8">
+    <header className="max-w-7xl sm:[15vh] mx-auto px-8 py-8">
       <nav className="flex justify-between items-center">
 
         <h1 className="text-5xl font-black tracking-tight">

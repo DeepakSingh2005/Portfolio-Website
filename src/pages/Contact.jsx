@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import {Blur} from "../animation/Animation.jsx";
+
 const EMAIL = "deepaksingh000987@gmail.com";
 const GITHUB_URL = "https://github.com/DeepakSingh2005";
 const LINKEDIN_URL = "https://linkedin.com/in/deepak-singh-5718a3385";
 const LOCATION = "Ghaziabad, India";
 
 function JsonLine({ keyName, value, isLast = false }) {
+  
   return (
     <div>
       <span className="text-sky-400">  "{keyName}"</span>
@@ -45,10 +47,10 @@ function Contact( ) {
       event.target.reportValidity?.();
       return;
     }
-
+const accessKey = import.meta.env.VITE_ACCESS_KEY; 
     setStatus("sending");
     const formData=new FormData(event.target)
-    formData.append("access_key","c571e565-6be5-484e-8886-b0320d33dd4f");
+    formData.append("access_key",accessKey);
 
 const response =await fetch("https://api.web3forms.com/submit",{
   method:"post",
@@ -71,7 +73,6 @@ if(data.success){
     );
 
     timeoutRef.current = setTimeout(() => {
-      window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
       setStatus("done");
       timeoutRef.current = setTimeout(() => setStatus("idle"), 3200);
     }, 650);

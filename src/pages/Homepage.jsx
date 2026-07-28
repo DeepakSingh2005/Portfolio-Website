@@ -42,7 +42,7 @@ const Scrolltocontact = () => {
 <motion.div style={{scaleX: scrollYProgress}}  className=' h-[9px] fixed origin-left border border-cyan-400   z-10 w-screen bg-gradient-to-r from-blue-500 to-purple-600'>
   
 </motion.div>
-      <div className="min-h-screen bg-[#fafafa] overflow-hidden">
+      <div className="min-h-screen  bg-[#fafafa] overflow-hidden">
         
         <Navbar scroll={handleScroll} scrollto={Scrolltocontact} scrolltoskills={Scrolltoskills} />
         <Hero scroll={handleScroll}  />
